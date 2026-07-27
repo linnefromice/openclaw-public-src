@@ -14,7 +14,13 @@
   {
     "name": "The Register",
     "url": "https://www.theregister.com",
-    "feed": "https://www.theregister.com/headlines.atom",
+    "feed": null,
+    "category": "news"
+  },
+  {
+    "name": "The Verge",
+    "url": "https://www.theverge.com",
+    "feed": "https://www.theverge.com/rss/index.xml",
     "category": "news"
   },
   {
@@ -84,6 +90,30 @@
     "category": "blog"
   },
   {
+    "name": "CSS-Tricks",
+    "url": "https://css-tricks.com",
+    "feed": "https://css-tricks.com/feed/",
+    "category": "blog"
+  },
+  {
+    "name": "Julia Evans",
+    "url": "https://jvns.ca",
+    "feed": "https://jvns.ca/atom.xml",
+    "category": "blog"
+  },
+  {
+    "name": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net",
+    "feed": "https://simonwillison.net/atom/everything/",
+    "category": "blog"
+  },
+  {
+    "name": "Stack Overflow Blog",
+    "url": "https://stackoverflow.blog",
+    "feed": "https://stackoverflow.blog/feed/",
+    "category": "blog"
+  },
+  {
     "name": "Cloudflare Blog",
     "url": "https://blog.cloudflare.com",
     "feed": "https://blog.cloudflare.com/rss/",
@@ -108,6 +138,18 @@
     "category": "enterprise"
   },
   {
+    "name": "Netflix Tech Blog",
+    "url": "https://netflixtechblog.com",
+    "feed": "https://netflixtechblog.com/feed",
+    "category": "enterprise"
+  },
+  {
+    "name": "Slack Engineering",
+    "url": "https://slack.engineering",
+    "feed": "https://slack.engineering/feed/",
+    "category": "enterprise"
+  },
+  {
     "name": "CNCF Blog",
     "url": "https://www.cncf.io/blog",
     "feed": "https://www.cncf.io/feed/",
@@ -117,6 +159,24 @@
     "name": "opensource.com",
     "url": "https://opensource.com",
     "feed": "https://opensource.com/feed",
+    "category": "oss"
+  },
+  {
+    "name": "Kubernetes Blog",
+    "url": "https://kubernetes.io/blog",
+    "feed": "https://kubernetes.io/feed.xml",
+    "category": "oss"
+  },
+  {
+    "name": "Rust Blog",
+    "url": "https://blog.rust-lang.org",
+    "feed": "https://blog.rust-lang.org/feed.xml",
+    "category": "oss"
+  },
+  {
+    "name": "Python Insider",
+    "url": "https://blog.python.org",
+    "feed": "https://blog.python.org/feeds/posts/default",
     "category": "oss"
   }
 ]
