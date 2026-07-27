@@ -52,5 +52,17 @@
     "url": "https://fqmagazine.jp",
     "feed": "https://fqmagazine.jp/feed",
     "category": "parenting"
+  },
+  {
+    "name": "リトル・ママ Web",
+    "url": "https://media.l-ma.co.jp",
+    "feed": "https://media.l-ma.co.jp/feed/",
+    "category": "parenting"
+  },
+  {
+    "name": "ROOMIE",
+    "url": "https://www.roomie.jp",
+    "feed": "https://www.roomie.jp/feed/",
+    "category": "lifestyle"
   }
 ]
