@@ -18,15 +18,21 @@
     "category": "markets"
   },
   {
+    "name": "Yahoo Finance",
+    "url": "https://finance.yahoo.com",
+    "feed": "https://finance.yahoo.com/news/rssindex",
+    "category": "markets"
+  },
+  {
+    "name": "Nasdaq Markets",
+    "url": "https://www.nasdaq.com/news-and-insights/markets",
+    "feed": "https://www.nasdaq.com/feed/rssoutbound?category=Markets",
+    "category": "markets"
+  },
+  {
     "name": "Seeking Alpha Economy",
     "url": "https://seekingalpha.com/market-news/economy",
     "feed": "https://seekingalpha.com/feed.xml",
-    "category": "economy"
-  },
-  {
-    "name": "Calculated Risk",
-    "url": "https://www.calculatedriskblog.com",
-    "feed": "https://www.calculatedriskblog.com/feeds/posts/default",
     "category": "economy"
   },
   {
@@ -39,6 +45,12 @@
     "name": "Project Syndicate",
     "url": "https://www.project-syndicate.org",
     "feed": "https://www.project-syndicate.org/rss",
+    "category": "economy"
+  },
+  {
+    "name": "NPR Economy",
+    "url": "https://www.npr.org/sections/economy/",
+    "feed": "https://www.npr.org/rss/rss.php?id=1017",
     "category": "economy"
   },
   {
@@ -60,6 +72,12 @@
     "category": "fintech"
   },
   {
+    "name": "Finextra",
+    "url": "https://www.finextra.com",
+    "feed": "https://www.finextra.com/rss/headlines.aspx",
+    "category": "fintech"
+  },
+  {
     "name": "The Big Picture",
     "url": "https://ritholtz.com",
     "feed": "https://ritholtz.com/feed/",
@@ -69,6 +87,12 @@
     "name": "Abnormal Returns",
     "url": "https://abnormalreturns.com",
     "feed": "https://abnormalreturns.com/feed/",
+    "category": "analysis"
+  },
+  {
+    "name": "A Wealth of Common Sense",
+    "url": "https://awealthofcommonsense.com",
+    "feed": "https://awealthofcommonsense.com/feed/",
     "category": "analysis"
   }
 ]
