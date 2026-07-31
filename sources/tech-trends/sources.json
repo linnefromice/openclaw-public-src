@@ -30,9 +30,21 @@
     "category": "news"
   },
   {
+    "name": "The Verge",
+    "url": "https://www.theverge.com",
+    "feed": "https://www.theverge.com/rss/tech/index.xml",
+    "category": "news"
+  },
+  {
     "name": "Publickey",
     "url": "https://www.publickey1.jp",
     "feed": "https://www.publickey1.jp/atom.xml",
+    "category": "news"
+  },
+  {
+    "name": "Gihyo (技術評論社)",
+    "url": "https://gihyo.jp",
+    "feed": "https://gihyo.jp/feed/atom",
     "category": "news"
   },
   {
@@ -66,6 +78,12 @@
     "category": "blog"
   },
   {
+    "name": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net",
+    "feed": "https://simonwillison.net/atom/everything/",
+    "category": "blog"
+  },
+  {
     "name": "Martin Fowler",
     "url": "https://martinfowler.com",
     "feed": "https://martinfowler.com/feed.atom",
@@ -96,6 +114,30 @@
     "category": "enterprise"
   },
   {
+    "name": "Google Research Blog",
+    "url": "https://research.google/blog/",
+    "feed": "https://research.google/blog/rss/",
+    "category": "enterprise"
+  },
+  {
+    "name": "Microsoft Engineering",
+    "url": "https://devblogs.microsoft.com/engineering-at-microsoft/",
+    "feed": "https://devblogs.microsoft.com/engineering-at-microsoft/feed/",
+    "category": "enterprise"
+  },
+  {
+    "name": "GitLab Blog",
+    "url": "https://about.gitlab.com/blog/",
+    "feed": "https://about.gitlab.com/atom.xml",
+    "category": "enterprise"
+  },
+  {
+    "name": "Spotify Engineering",
+    "url": "https://engineering.atspotify.com",
+    "feed": "https://engineering.atspotify.com/feed",
+    "category": "enterprise"
+  },
+  {
     "name": "Meta Engineering",
     "url": "https://engineering.fb.com",
     "feed": "https://engineering.fb.com/feed/",
@@ -108,9 +150,27 @@
     "category": "enterprise"
   },
   {
+    "name": "LY Corp Tech Blog",
+    "url": "https://techblog.lycorp.co.jp/ja",
+    "feed": "https://techblog.lycorp.co.jp/ja/feed/index.xml",
+    "category": "enterprise"
+  },
+  {
     "name": "CNCF Blog",
     "url": "https://www.cncf.io/blog",
     "feed": "https://www.cncf.io/feed/",
+    "category": "oss"
+  },
+  {
+    "name": "Kubernetes Blog",
+    "url": "https://kubernetes.io/blog/",
+    "feed": "https://kubernetes.io/feed.xml",
+    "category": "oss"
+  },
+  {
+    "name": "Rust Language Blog",
+    "url": "https://blog.rust-lang.org",
+    "feed": "https://blog.rust-lang.org/feed.xml",
     "category": "oss"
   },
   {
