@@ -42,9 +42,9 @@
     "sessions": ["open", "mid", "close", "daily"]
   },
   {
-    "name": "ETF Database",
-    "url": "https://etfdb.com",
-    "feed": null,
+    "name": "ETF Strategy",
+    "url": "https://www.etfstrategy.com",
+    "feed": "https://www.etfstrategy.com/feed/",
     "category": "global-index",
     "sessions": ["daily"]
   },
@@ -70,6 +70,13 @@
     "sessions": ["daily"]
   },
   {
+    "name": "The Block",
+    "url": "https://www.theblock.co",
+    "feed": "https://www.theblock.co/rss.xml",
+    "category": "crypto",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
     "name": "FXStreet",
     "url": "https://www.fxstreet.com",
     "feed": "https://www.fxstreet.com/rss",
@@ -82,6 +89,13 @@
     "feed": "https://www.forexlive.com/feed/",
     "category": "forex",
     "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
+    "name": "Action Forex",
+    "url": "https://www.actionforex.com",
+    "feed": "https://www.actionforex.com/feed/",
+    "category": "forex",
+    "sessions": ["open", "mid", "daily"]
   },
   {
     "name": "OilPrice.com",
@@ -108,6 +122,20 @@
     "name": "A Wealth of Common Sense",
     "url": "https://awealthofcommonsense.com",
     "feed": "https://awealthofcommonsense.com/feed/",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "The Big Picture (Ritholtz)",
+    "url": "https://ritholtz.com",
+    "feed": "https://ritholtz.com/feed/",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "Calculated Risk",
+    "url": "https://www.calculatedriskblog.com",
+    "feed": "https://www.calculatedriskblog.com/feeds/posts/default",
     "category": "analysis",
     "sessions": ["daily"]
   }
