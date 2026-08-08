@@ -35,6 +35,13 @@
     "sessions": ["daily"]
   },
   {
+    "name": "WSJ Markets",
+    "url": "https://www.wsj.com/news/markets",
+    "feed": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+    "category": "us-stocks",
+    "sessions": ["open", "close", "daily"]
+  },
+  {
     "name": "Investing.com",
     "url": "https://www.investing.com",
     "feed": "https://www.investing.com/rss/news_25.rss",
@@ -42,9 +49,9 @@
     "sessions": ["open", "mid", "close", "daily"]
   },
   {
-    "name": "ETF Database",
-    "url": "https://etfdb.com",
-    "feed": null,
+    "name": "ETF Strategy",
+    "url": "https://etfstrategy.com",
+    "feed": "https://etfstrategy.com/feed/",
     "category": "global-index",
     "sessions": ["daily"]
   },
@@ -70,6 +77,13 @@
     "sessions": ["daily"]
   },
   {
+    "name": "The Block",
+    "url": "https://www.theblock.co",
+    "feed": "https://www.theblock.co/rss.xml",
+    "category": "crypto",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
     "name": "FXStreet",
     "url": "https://www.fxstreet.com",
     "feed": "https://www.fxstreet.com/rss",
@@ -82,6 +96,13 @@
     "feed": "https://www.forexlive.com/feed/",
     "category": "forex",
     "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
+    "name": "Forex Crunch",
+    "url": "https://www.forexcrunch.com",
+    "feed": "https://www.forexcrunch.com/feed/",
+    "category": "forex",
+    "sessions": ["open", "mid", "daily"]
   },
   {
     "name": "OilPrice.com",
@@ -108,6 +129,27 @@
     "name": "A Wealth of Common Sense",
     "url": "https://awealthofcommonsense.com",
     "feed": "https://awealthofcommonsense.com/feed/",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "Abnormal Returns",
+    "url": "https://abnormalreturns.com",
+    "feed": "https://abnormalreturns.com/feed/",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "The Big Picture",
+    "url": "https://ritholtz.com",
+    "feed": "https://ritholtz.com/feed/",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "Meb Faber Research",
+    "url": "https://mebfaber.com",
+    "feed": "https://mebfaber.com/feed/",
     "category": "analysis",
     "sessions": ["daily"]
   }
