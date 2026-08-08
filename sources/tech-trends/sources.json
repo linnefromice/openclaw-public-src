@@ -42,6 +42,18 @@
     "category": "news"
   },
   {
+    "name": "The New Stack",
+    "url": "https://thenewstack.io",
+    "feed": "https://thenewstack.io/feed/",
+    "category": "news"
+  },
+  {
+    "name": "VentureBeat",
+    "url": "https://venturebeat.com",
+    "feed": "https://venturebeat.com/feed/",
+    "category": "news"
+  },
+  {
     "name": "dev.to",
     "url": "https://dev.to",
     "feed": "https://dev.to/feed",
@@ -84,6 +96,18 @@
     "category": "blog"
   },
   {
+    "name": "Stack Overflow Blog",
+    "url": "https://stackoverflow.blog",
+    "feed": "https://stackoverflow.blog/feed/",
+    "category": "blog"
+  },
+  {
+    "name": "Simon Willison's blog",
+    "url": "https://simonwillison.net",
+    "feed": "https://simonwillison.net/atom/everything/",
+    "category": "blog"
+  },
+  {
     "name": "Cloudflare Blog",
     "url": "https://blog.cloudflare.com",
     "feed": "https://blog.cloudflare.com/rss/",
@@ -108,6 +132,18 @@
     "category": "enterprise"
   },
   {
+    "name": "HashiCorp Blog",
+    "url": "https://www.hashicorp.com/blog",
+    "feed": "https://www.hashicorp.com/blog/feed.xml",
+    "category": "enterprise"
+  },
+  {
+    "name": "Grafana Blog",
+    "url": "https://grafana.com/blog",
+    "feed": "https://grafana.com/blog/news.xml",
+    "category": "enterprise"
+  },
+  {
     "name": "CNCF Blog",
     "url": "https://www.cncf.io/blog",
     "feed": "https://www.cncf.io/feed/",
@@ -117,6 +153,18 @@
     "name": "opensource.com",
     "url": "https://opensource.com",
     "feed": "https://opensource.com/feed",
+    "category": "oss"
+  },
+  {
+    "name": "Kubernetes Blog",
+    "url": "https://kubernetes.io/blog",
+    "feed": "https://kubernetes.io/feed.xml",
+    "category": "oss"
+  },
+  {
+    "name": "Mozilla Hacks",
+    "url": "https://hacks.mozilla.org",
+    "feed": "https://hacks.mozilla.org/feed/",
     "category": "oss"
   }
 ]
