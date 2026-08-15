@@ -42,6 +42,18 @@
     "category": "news"
   },
   {
+    "name": "The New Stack",
+    "url": "https://thenewstack.io",
+    "feed": "https://thenewstack.io/feed/",
+    "category": "news"
+  },
+  {
+    "name": "Gizmodo Japan",
+    "url": "https://www.gizmodo.jp",
+    "feed": "https://www.gizmodo.jp/index.xml",
+    "category": "news"
+  },
+  {
     "name": "dev.to",
     "url": "https://dev.to",
     "feed": "https://dev.to/feed",
@@ -84,6 +96,18 @@
     "category": "blog"
   },
   {
+    "name": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net",
+    "feed": "https://simonwillison.net/atom/everything/",
+    "category": "blog"
+  },
+  {
+    "name": "Stack Overflow Blog",
+    "url": "https://stackoverflow.blog",
+    "feed": "https://stackoverflow.blog/feed/",
+    "category": "blog"
+  },
+  {
     "name": "Cloudflare Blog",
     "url": "https://blog.cloudflare.com",
     "feed": "https://blog.cloudflare.com/rss/",
@@ -108,6 +132,24 @@
     "category": "enterprise"
   },
   {
+    "name": "Google Cloud Blog",
+    "url": "https://cloud.google.com/blog",
+    "feed": "https://cloudblog.withgoogle.com/rss/",
+    "category": "enterprise"
+  },
+  {
+    "name": "Azure Blog",
+    "url": "https://azure.microsoft.com/en-us/blog",
+    "feed": "https://azure.microsoft.com/en-us/blog/feed/",
+    "category": "enterprise"
+  },
+  {
+    "name": "HashiCorp Blog",
+    "url": "https://www.hashicorp.com/blog",
+    "feed": "https://www.hashicorp.com/blog/feed.xml",
+    "category": "enterprise"
+  },
+  {
     "name": "CNCF Blog",
     "url": "https://www.cncf.io/blog",
     "feed": "https://www.cncf.io/feed/",
@@ -117,6 +159,18 @@
     "name": "opensource.com",
     "url": "https://opensource.com",
     "feed": "https://opensource.com/feed",
+    "category": "oss"
+  },
+  {
+    "name": "Mozilla Hacks",
+    "url": "https://hacks.mozilla.org",
+    "feed": "https://hacks.mozilla.org/feed/",
+    "category": "oss"
+  },
+  {
+    "name": "OpenSSF Blog",
+    "url": "https://openssf.org/blog",
+    "feed": "https://openssf.org/feed/",
     "category": "oss"
   }
 ]
