@@ -21,6 +21,20 @@
     "sessions": ["daily"]
   },
   {
+    "name": "JPX マーケットニュース",
+    "url": "https://www.jpx.co.jp/news/",
+    "feed": "https://www.jpx.co.jp/rss/markets_news.xml",
+    "category": "index",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
+    "name": "東証マネ部",
+    "url": "https://money-bu-jpx.com",
+    "feed": "https://money-bu-jpx.com/feed/",
+    "category": "index",
+    "sessions": ["daily"]
+  },
+  {
     "name": "ザイFX！ ニュース",
     "url": "https://zai.diamond.jp/category/zaifxnews",
     "feed": "https://zai.diamond.jp/list/feed/rss4newssitemap",
@@ -28,24 +42,17 @@
     "sessions": ["open", "mid", "close", "daily"]
   },
   {
-    "name": "モーニングスター 日本",
-    "url": "https://www.morningstar.co.jp/news/",
-    "feed": "https://www.morningstar.co.jp/news/rss.xml",
-    "category": "analysis",
-    "sessions": ["open", "mid", "close", "daily"]
-  },
-  {
-    "name": "トウシル (楽天証券)",
-    "url": "https://media.rakuten-sec.net",
-    "feed": "https://media.rakuten-sec.net/list/feed/rss4googlenews",
-    "category": "analysis",
+    "name": "OANDA Lab",
+    "url": "https://www.oanda.jp/lab-education/",
+    "feed": "https://www.oanda.jp/lab-education/feed/",
+    "category": "fx-jpy",
     "sessions": ["daily"]
   },
   {
-    "name": "東証マネ部",
-    "url": "https://money-bu-jpx.com",
-    "feed": "https://money-bu-jpx.com/feed/",
-    "category": "index",
+    "name": "外為どっとコム マネ育チャンネル",
+    "url": "https://www.gaitame.com/media/",
+    "feed": "https://www.gaitame.com/media/feed",
+    "category": "fx-jpy",
     "sessions": ["daily"]
   },
   {
@@ -63,17 +70,24 @@
     "sessions": ["daily"]
   },
   {
-    "name": "HEDGE GUIDE 投資信託",
-    "url": "https://hedge.guide/category/fund",
-    "feed": "https://hedge.guide/category/fund/feed",
+    "name": "モーニングスター 日本",
+    "url": "https://www.morningstar.co.jp/news/",
+    "feed": "https://www.morningstar.co.jp/news/rss.xml",
+    "category": "analysis",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
+    "name": "トウシル (楽天証券)",
+    "url": "https://media.rakuten-sec.net",
+    "feed": "https://media.rakuten-sec.net/list/feed/rss4googlenews",
     "category": "analysis",
     "sessions": ["daily"]
   },
   {
-    "name": "OANDA Lab",
-    "url": "https://www.oanda.jp/lab-education/",
-    "feed": "https://www.oanda.jp/lab-education/feed/",
-    "category": "fx-jpy",
+    "name": "HEDGE GUIDE 投資信託",
+    "url": "https://hedge.guide/category/fund",
+    "feed": "https://hedge.guide/category/fund/feed",
+    "category": "analysis",
     "sessions": ["daily"]
   },
   {
@@ -87,6 +101,13 @@
     "name": "大和総研",
     "url": "https://www.dir.co.jp/report/",
     "feed": "https://www.dir.co.jp/feed/japan.atom",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "NHK ニュース 経済",
+    "url": "https://www3.nhk.or.jp/news/cat05.html",
+    "feed": "https://www3.nhk.or.jp/rss/news/cat5.xml",
     "category": "analysis",
     "sessions": ["daily"]
   }
