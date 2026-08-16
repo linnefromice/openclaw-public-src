@@ -30,6 +30,12 @@
     "category": "news"
   },
   {
+    "name": "The Verge",
+    "url": "https://www.theverge.com",
+    "feed": "https://www.theverge.com/rss/index.xml",
+    "category": "news"
+  },
+  {
     "name": "Publickey",
     "url": "https://www.publickey1.jp",
     "feed": "https://www.publickey1.jp/atom.xml",
@@ -39,6 +45,24 @@
     "name": "はてなブックマーク IT",
     "url": "https://b.hatena.ne.jp/hotentry/it",
     "feed": "https://b.hatena.ne.jp/hotentry/it.rss",
+    "category": "news"
+  },
+  {
+    "name": "Qiita",
+    "url": "https://qiita.com",
+    "feed": "https://qiita.com/popular-items/feed",
+    "category": "news"
+  },
+  {
+    "name": "IEEE Spectrum",
+    "url": "https://spectrum.ieee.org",
+    "feed": "https://spectrum.ieee.org/feeds/feed.rss",
+    "category": "news"
+  },
+  {
+    "name": "VentureBeat",
+    "url": "https://venturebeat.com",
+    "feed": "https://venturebeat.com/feed/",
     "category": "news"
   },
   {
@@ -66,6 +90,12 @@
     "category": "blog"
   },
   {
+    "name": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net",
+    "feed": "https://simonwillison.net/atom/everything/",
+    "category": "blog"
+  },
+  {
     "name": "Martin Fowler",
     "url": "https://martinfowler.com",
     "feed": "https://martinfowler.com/feed.atom",
@@ -81,6 +111,12 @@
     "name": "DevelopersIO",
     "url": "https://dev.classmethod.jp",
     "feed": "https://dev.classmethod.jp/feed/",
+    "category": "blog"
+  },
+  {
+    "name": "Stack Overflow Blog",
+    "url": "https://stackoverflow.blog",
+    "feed": "https://stackoverflow.blog/feed/",
     "category": "blog"
   },
   {
@@ -108,15 +144,87 @@
     "category": "enterprise"
   },
   {
+    "name": "Google AI Blog",
+    "url": "https://blog.google/technology/ai",
+    "feed": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+    "category": "enterprise"
+  },
+  {
+    "name": "Google Developers Blog",
+    "url": "https://developers.googleblog.com",
+    "feed": "https://developers.googleblog.com/feeds/posts/default/",
+    "category": "enterprise"
+  },
+  {
+    "name": "Spotify Engineering",
+    "url": "https://engineering.atspotify.com",
+    "feed": "https://engineering.atspotify.com/feed",
+    "category": "enterprise"
+  },
+  {
+    "name": "Google Cloud Blog",
+    "url": "https://cloud.google.com/blog",
+    "feed": "https://cloud.google.com/blog/rss",
+    "category": "enterprise"
+  },
+  {
+    "name": "Netflix Tech Blog",
+    "url": "https://netflixtechblog.com",
+    "feed": "https://netflixtechblog.medium.com/feed",
+    "category": "enterprise"
+  },
+  {
+    "name": "Stripe Engineering Blog",
+    "url": "https://stripe.com/blog/engineering",
+    "feed": "https://stripe.com/blog/feed.rss",
+    "category": "enterprise"
+  },
+  {
+    "name": "Microsoft Developer Blog",
+    "url": "https://developer.microsoft.com/blog",
+    "feed": "https://developer.microsoft.com/blog/feed",
+    "category": "enterprise"
+  },
+  {
+    "name": "Shopify Engineering",
+    "url": "https://shopify.engineering",
+    "feed": "https://shopify.engineering/blog.atom",
+    "category": "enterprise"
+  },
+  {
     "name": "CNCF Blog",
     "url": "https://www.cncf.io/blog",
     "feed": "https://www.cncf.io/feed/",
     "category": "oss"
   },
   {
+    "name": "Kubernetes Blog",
+    "url": "https://kubernetes.io/blog",
+    "feed": "https://kubernetes.io/feed.xml",
+    "category": "oss"
+  },
+  {
+    "name": "Docker Blog",
+    "url": "https://www.docker.com/blog",
+    "feed": "https://www.docker.com/feed/",
+    "category": "oss"
+  },
+  {
     "name": "opensource.com",
     "url": "https://opensource.com",
     "feed": "https://opensource.com/feed",
+    "category": "oss"
+  },
+  {
+    "name": "Mozilla Hacks",
+    "url": "https://hacks.mozilla.org",
+    "feed": "https://hacks.mozilla.org/feed/",
+    "category": "oss"
+  },
+  {
+    "name": "Rust Blog",
+    "url": "https://blog.rust-lang.org",
+    "feed": "https://blog.rust-lang.org/feed.xml",
     "category": "oss"
   }
 ]
