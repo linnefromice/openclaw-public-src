@@ -118,5 +118,47 @@
     "url": "https://opensource.com",
     "feed": "https://opensource.com/feed",
     "category": "oss"
+  },
+  {
+    "name": "IEEE Spectrum",
+    "url": "https://spectrum.ieee.org",
+    "feed": "https://spectrum.ieee.org/feeds/feed.rss",
+    "category": "news"
+  },
+  {
+    "name": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net",
+    "feed": "https://simonwillison.net/atom/entries/",
+    "category": "blog"
+  },
+  {
+    "name": "Stack Overflow Blog",
+    "url": "https://stackoverflow.blog",
+    "feed": "https://stackoverflow.blog/feed/",
+    "category": "blog"
+  },
+  {
+    "name": "Google Cloud Blog",
+    "url": "https://cloud.google.com/blog",
+    "feed": "https://cloudblog.withgoogle.com/products/gcp/rss/",
+    "category": "enterprise"
+  },
+  {
+    "name": "Netflix Tech Blog",
+    "url": "https://netflixtechblog.com",
+    "feed": "https://medium.com/feed/netflix-techblog",
+    "category": "enterprise"
+  },
+  {
+    "name": "The New Stack",
+    "url": "https://thenewstack.io",
+    "feed": "https://thenewstack.io/feed/",
+    "category": "oss"
+  },
+  {
+    "name": "Kubernetes Blog",
+    "url": "https://kubernetes.io/blog",
+    "feed": "https://kubernetes.io/feed.xml",
+    "category": "oss"
   }
 ]
