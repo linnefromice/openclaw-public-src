@@ -42,6 +42,12 @@
     "category": "economy"
   },
   {
+    "name": "Econbrowser",
+    "url": "https://econbrowser.com",
+    "feed": "https://econbrowser.com/feed",
+    "category": "economy"
+  },
+  {
     "name": "CoinDesk",
     "url": "https://www.coindesk.com",
     "feed": "https://www.coindesk.com/arc/outboundfeeds/rss/",
@@ -60,6 +66,12 @@
     "category": "fintech"
   },
   {
+    "name": "Finextra",
+    "url": "https://www.finextra.com",
+    "feed": "https://www.finextra.com/rss/headlines.aspx",
+    "category": "fintech"
+  },
+  {
     "name": "The Big Picture",
     "url": "https://ritholtz.com",
     "feed": "https://ritholtz.com/feed/",
@@ -69,6 +81,24 @@
     "name": "Abnormal Returns",
     "url": "https://abnormalreturns.com",
     "feed": "https://abnormalreturns.com/feed/",
+    "category": "analysis"
+  },
+  {
+    "name": "A Wealth of Common Sense",
+    "url": "https://awealthofcommonsense.com",
+    "feed": "https://awealthofcommonsense.com/feed/",
+    "category": "analysis"
+  },
+  {
+    "name": "Of Dollars and Data",
+    "url": "https://ofdollarsanddata.com",
+    "feed": "https://ofdollarsanddata.com/feed/",
+    "category": "analysis"
+  },
+  {
+    "name": "Meb Faber Research",
+    "url": "https://mebfaber.com",
+    "feed": "https://mebfaber.com/feed/",
     "category": "analysis"
   }
 ]
