@@ -21,6 +21,13 @@
     "sessions": ["daily"]
   },
   {
+    "name": "NHKニュース 経済",
+    "url": "https://www3.nhk.or.jp/news/catnew.html?cat=5",
+    "feed": "https://www3.nhk.or.jp/rss/news/cat5.xml",
+    "category": "index",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
     "name": "ザイFX！ ニュース",
     "url": "https://zai.diamond.jp/category/zaifxnews",
     "feed": "https://zai.diamond.jp/list/feed/rss4newssitemap",
@@ -38,6 +45,20 @@
     "name": "トウシル (楽天証券)",
     "url": "https://media.rakuten-sec.net",
     "feed": "https://media.rakuten-sec.net/list/feed/rss4googlenews",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "マネクリ (マネックス証券)",
+    "url": "https://media.monex.co.jp",
+    "feed": "https://media.monex.co.jp/list/feed/rss4googlenews",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "東洋経済オンライン",
+    "url": "https://toyokeizai.net",
+    "feed": "https://toyokeizai.net/list/feed/rss",
     "category": "analysis",
     "sessions": ["daily"]
   },
