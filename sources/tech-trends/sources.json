@@ -30,6 +30,18 @@
     "category": "news"
   },
   {
+    "name": "The Verge",
+    "url": "https://www.theverge.com",
+    "feed": "https://www.theverge.com/rss/index.xml",
+    "category": "news"
+  },
+  {
+    "name": "The New Stack",
+    "url": "https://thenewstack.io",
+    "feed": "https://thenewstack.io/feed/",
+    "category": "news"
+  },
+  {
     "name": "Publickey",
     "url": "https://www.publickey1.jp",
     "feed": "https://www.publickey1.jp/atom.xml",
@@ -66,6 +78,18 @@
     "category": "blog"
   },
   {
+    "name": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net",
+    "feed": "https://simonwillison.net/atom/everything/",
+    "category": "blog"
+  },
+  {
+    "name": "Stack Overflow Blog",
+    "url": "https://stackoverflow.blog",
+    "feed": "https://stackoverflow.blog/feed/",
+    "category": "blog"
+  },
+  {
     "name": "Martin Fowler",
     "url": "https://martinfowler.com",
     "feed": "https://martinfowler.com/feed.atom",
@@ -96,6 +120,18 @@
     "category": "enterprise"
   },
   {
+    "name": "Google Developers Blog",
+    "url": "https://developers.googleblog.com",
+    "feed": "https://developers.googleblog.com/feeds/posts/default",
+    "category": "enterprise"
+  },
+  {
+    "name": "OpenAI Blog",
+    "url": "https://openai.com/blog",
+    "feed": "https://openai.com/blog/rss.xml",
+    "category": "enterprise"
+  },
+  {
     "name": "Meta Engineering",
     "url": "https://engineering.fb.com",
     "feed": "https://engineering.fb.com/feed/",
@@ -111,6 +147,24 @@
     "name": "CNCF Blog",
     "url": "https://www.cncf.io/blog",
     "feed": "https://www.cncf.io/feed/",
+    "category": "oss"
+  },
+  {
+    "name": "Kubernetes Blog",
+    "url": "https://kubernetes.io/blog",
+    "feed": "https://kubernetes.io/feed.xml",
+    "category": "oss"
+  },
+  {
+    "name": "Rust Blog",
+    "url": "https://blog.rust-lang.org",
+    "feed": "https://blog.rust-lang.org/feed.xml",
+    "category": "oss"
+  },
+  {
+    "name": "Go Blog",
+    "url": "https://go.dev/blog",
+    "feed": "https://go.dev/blog/feed.atom",
     "category": "oss"
   },
   {
