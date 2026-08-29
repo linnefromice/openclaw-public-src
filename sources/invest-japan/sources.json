@@ -7,6 +7,20 @@
     "sessions": ["open", "mid", "close", "daily"]
   },
   {
+    "name": "みんかぶ",
+    "url": "https://minkabu.jp",
+    "feed": null,
+    "category": "stocks",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "株探",
+    "url": "https://kabutan.jp",
+    "feed": null,
+    "category": "stocks",
+    "sessions": ["daily"]
+  },
+  {
     "name": "Yahoo!ファイナンス",
     "url": "https://finance.yahoo.co.jp",
     "feed": "https://news.yahoo.co.jp/rss/topics/business.xml",
@@ -21,6 +35,13 @@
     "sessions": ["daily"]
   },
   {
+    "name": "東証マネ部",
+    "url": "https://money-bu-jpx.com",
+    "feed": "https://money-bu-jpx.com/feed/",
+    "category": "index",
+    "sessions": ["daily"]
+  },
+  {
     "name": "ザイFX！ ニュース",
     "url": "https://zai.diamond.jp/category/zaifxnews",
     "feed": "https://zai.diamond.jp/list/feed/rss4newssitemap",
@@ -28,24 +49,17 @@
     "sessions": ["open", "mid", "close", "daily"]
   },
   {
-    "name": "モーニングスター 日本",
-    "url": "https://www.morningstar.co.jp/news/",
-    "feed": "https://www.morningstar.co.jp/news/rss.xml",
-    "category": "analysis",
+    "name": "みんかぶFX",
+    "url": "https://fx.minkabu.jp",
+    "feed": "https://fx.minkabu.jp/news.rss",
+    "category": "fx-jpy",
     "sessions": ["open", "mid", "close", "daily"]
   },
   {
-    "name": "トウシル (楽天証券)",
-    "url": "https://media.rakuten-sec.net",
-    "feed": "https://media.rakuten-sec.net/list/feed/rss4googlenews",
-    "category": "analysis",
-    "sessions": ["daily"]
-  },
-  {
-    "name": "東証マネ部",
-    "url": "https://money-bu-jpx.com",
-    "feed": "https://money-bu-jpx.com/feed/",
-    "category": "index",
+    "name": "OANDA Lab",
+    "url": "https://www.oanda.jp/lab-education/",
+    "feed": "https://www.oanda.jp/lab-education/feed/",
+    "category": "fx-jpy",
     "sessions": ["daily"]
   },
   {
@@ -63,17 +77,24 @@
     "sessions": ["daily"]
   },
   {
-    "name": "HEDGE GUIDE 投資信託",
-    "url": "https://hedge.guide/category/fund",
-    "feed": "https://hedge.guide/category/fund/feed",
+    "name": "モーニングスター 日本",
+    "url": "https://www.morningstar.co.jp/news/",
+    "feed": "https://www.morningstar.co.jp/news/rss.xml",
+    "category": "analysis",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
+    "name": "トウシル (楽天証券)",
+    "url": "https://media.rakuten-sec.net",
+    "feed": "https://media.rakuten-sec.net/list/feed/rss4googlenews",
     "category": "analysis",
     "sessions": ["daily"]
   },
   {
-    "name": "OANDA Lab",
-    "url": "https://www.oanda.jp/lab-education/",
-    "feed": "https://www.oanda.jp/lab-education/feed/",
-    "category": "fx-jpy",
+    "name": "HEDGE GUIDE 投資信託",
+    "url": "https://hedge.guide/category/fund",
+    "feed": "https://hedge.guide/category/fund/feed",
+    "category": "analysis",
     "sessions": ["daily"]
   },
   {
