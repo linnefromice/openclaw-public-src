@@ -28,6 +28,13 @@
     "sessions": ["open", "mid", "close", "daily"]
   },
   {
+    "name": "みんかぶFX/為替",
+    "url": "https://fx.minkabu.jp/news/",
+    "feed": "https://fx.minkabu.jp/news.rss",
+    "category": "fx-jpy",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
     "name": "モーニングスター 日本",
     "url": "https://www.morningstar.co.jp/news/",
     "feed": "https://www.morningstar.co.jp/news/rss.xml",
@@ -79,14 +86,28 @@
   {
     "name": "Investing.com Japan",
     "url": "https://jp.investing.com",
-    "feed": "https://jp.investing.com/rss/news.rss",
+    "feed": null,
     "category": "analysis",
-    "sessions": ["open", "mid", "close", "daily"]
+    "sessions": ["daily"]
   },
   {
     "name": "大和総研",
     "url": "https://www.dir.co.jp/report/",
     "feed": "https://www.dir.co.jp/feed/japan.atom",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "東洋経済オンライン",
+    "url": "https://toyokeizai.net",
+    "feed": "https://toyokeizai.net/list/feed/rss",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "マネクリ (マネックス証券)",
+    "url": "https://media.monex.co.jp",
+    "feed": "https://media.monex.co.jp/list/feed/rss4googlenews",
     "category": "analysis",
     "sessions": ["daily"]
   }
