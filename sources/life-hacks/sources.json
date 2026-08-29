@@ -24,6 +24,12 @@
     "category": "productivity"
   },
   {
+    "name": "Nir and Far",
+    "url": "https://www.nirandfar.com",
+    "feed": "https://www.nirandfar.com/feed/",
+    "category": "productivity"
+  },
+  {
     "name": "ライフハッカー日本版",
     "url": "https://www.lifehacker.jp",
     "feed": "https://www.lifehacker.jp/feed/index.xml",
@@ -33,6 +39,18 @@
     "name": "はてなブックマーク 暮らし",
     "url": "https://b.hatena.ne.jp/hotentry/life",
     "feed": "https://b.hatena.ne.jp/hotentry/life.rss",
+    "category": "lifestyle"
+  },
+  {
+    "name": "キナリノ",
+    "url": "https://kinarino.jp",
+    "feed": "https://kinarino.jp/?format=rss",
+    "category": "lifestyle"
+  },
+  {
+    "name": "Zen Habits",
+    "url": "https://zenhabits.net",
+    "feed": "https://feeds.feedburner.com/zenhabits",
     "category": "lifestyle"
   },
   {
@@ -48,9 +66,21 @@
     "category": "worklife"
   },
   {
+    "name": "Fast Company Work Life",
+    "url": "https://www.fastcompany.com/work-life",
+    "feed": "https://www.fastcompany.com/work-life/rss",
+    "category": "worklife"
+  },
+  {
     "name": "FQ JAPAN",
     "url": "https://fqmagazine.jp",
     "feed": "https://fqmagazine.jp/feed",
+    "category": "parenting"
+  },
+  {
+    "name": "オトナンサー",
+    "url": "https://otonanswer.jp",
+    "feed": "https://otonanswer.jp/feed/",
     "category": "parenting"
   }
 ]
