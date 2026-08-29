@@ -24,6 +24,12 @@
     "category": "productivity"
   },
   {
+    "name": "STUDY HACKER",
+    "url": "https://studyhacker.net",
+    "feed": "https://studyhacker.net/feed",
+    "category": "productivity"
+  },
+  {
     "name": "ライフハッカー日本版",
     "url": "https://www.lifehacker.jp",
     "feed": "https://www.lifehacker.jp/feed/index.xml",
@@ -33,6 +39,12 @@
     "name": "はてなブックマーク 暮らし",
     "url": "https://b.hatena.ne.jp/hotentry/life",
     "feed": "https://b.hatena.ne.jp/hotentry/life.rss",
+    "category": "lifestyle"
+  },
+  {
+    "name": "サンキュ！",
+    "url": "https://39mag.thankyu.co.jp",
+    "feed": "https://39mag.thankyu.co.jp/feed/",
     "category": "lifestyle"
   },
   {
@@ -48,9 +60,21 @@
     "category": "worklife"
   },
   {
+    "name": "manegy",
+    "url": "https://www.manegy.com",
+    "feed": "https://www.manegy.com/rss/",
+    "category": "worklife"
+  },
+  {
     "name": "FQ JAPAN",
     "url": "https://fqmagazine.jp",
     "feed": "https://fqmagazine.jp/feed",
+    "category": "parenting"
+  },
+  {
+    "name": "mama-plus",
+    "url": "https://mama-plus.com",
+    "feed": "https://mama-plus.com/feed/",
     "category": "parenting"
   }
 ]
