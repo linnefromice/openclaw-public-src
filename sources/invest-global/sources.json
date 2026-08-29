@@ -42,11 +42,11 @@
     "sessions": ["open", "mid", "close", "daily"]
   },
   {
-    "name": "ETF Database",
-    "url": "https://etfdb.com",
-    "feed": null,
+    "name": "Financial Times Markets",
+    "url": "https://www.ft.com/markets",
+    "feed": "https://www.ft.com/markets?format=rss",
     "category": "global-index",
-    "sessions": ["daily"]
+    "sessions": ["open", "daily"]
   },
   {
     "name": "CoinDesk",
@@ -70,6 +70,13 @@
     "sessions": ["daily"]
   },
   {
+    "name": "The Block",
+    "url": "https://www.theblock.co",
+    "feed": "https://www.theblock.co/rss.xml",
+    "category": "crypto",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
     "name": "FXStreet",
     "url": "https://www.fxstreet.com",
     "feed": "https://www.fxstreet.com/rss",
@@ -80,6 +87,13 @@
     "name": "ForexLive",
     "url": "https://www.forexlive.com",
     "feed": "https://www.forexlive.com/feed/",
+    "category": "forex",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
+    "name": "ActionForex",
+    "url": "https://www.actionforex.com",
+    "feed": "https://www.actionforex.com/feed/",
     "category": "forex",
     "sessions": ["open", "mid", "close", "daily"]
   },
@@ -98,6 +112,13 @@
     "sessions": ["daily"]
   },
   {
+    "name": "Mining.com",
+    "url": "https://www.mining.com",
+    "feed": "https://www.mining.com/feed/",
+    "category": "commodities",
+    "sessions": ["daily"]
+  },
+  {
     "name": "トウシル 海外投資",
     "url": "https://media.rakuten-sec.net/category/us-stock/",
     "feed": "https://media.rakuten-sec.net/list/feed/rss4googlenews",
@@ -108,6 +129,13 @@
     "name": "A Wealth of Common Sense",
     "url": "https://awealthofcommonsense.com",
     "feed": "https://awealthofcommonsense.com/feed/",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "The Big Picture",
+    "url": "https://ritholtz.com",
+    "feed": "https://ritholtz.com/feed/",
     "category": "analysis",
     "sessions": ["daily"]
   }
