@@ -42,9 +42,9 @@
     "sessions": ["open", "mid", "close", "daily"]
   },
   {
-    "name": "ETF Database",
-    "url": "https://etfdb.com",
-    "feed": null,
+    "name": "ETF Strategy",
+    "url": "https://www.etfstrategy.com",
+    "feed": "https://www.etfstrategy.com/feed/",
     "category": "global-index",
     "sessions": ["daily"]
   },
@@ -70,6 +70,20 @@
     "sessions": ["daily"]
   },
   {
+    "name": "The Block",
+    "url": "https://www.theblock.co",
+    "feed": "https://www.theblock.co/rss.xml",
+    "category": "crypto",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
+    "name": "Bitcoin Magazine",
+    "url": "https://bitcoinmagazine.com",
+    "feed": "https://bitcoinmagazine.com/feed",
+    "category": "crypto",
+    "sessions": ["daily"]
+  },
+  {
     "name": "FXStreet",
     "url": "https://www.fxstreet.com",
     "feed": "https://www.fxstreet.com/rss",
@@ -82,6 +96,13 @@
     "feed": "https://www.forexlive.com/feed/",
     "category": "forex",
     "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
+    "name": "Action Forex",
+    "url": "https://www.actionforex.com",
+    "feed": "https://www.actionforex.com/feed/",
+    "category": "forex",
+    "sessions": ["open", "mid", "daily"]
   },
   {
     "name": "OilPrice.com",
@@ -98,6 +119,13 @@
     "sessions": ["daily"]
   },
   {
+    "name": "Kitco News",
+    "url": "https://www.kitco.com",
+    "feed": "https://news.kitco.com/feed",
+    "category": "commodities",
+    "sessions": ["open", "mid", "close", "daily"]
+  },
+  {
     "name": "トウシル 海外投資",
     "url": "https://media.rakuten-sec.net/category/us-stock/",
     "feed": "https://media.rakuten-sec.net/list/feed/rss4googlenews",
@@ -108,6 +136,20 @@
     "name": "A Wealth of Common Sense",
     "url": "https://awealthofcommonsense.com",
     "feed": "https://awealthofcommonsense.com/feed/",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "Calculated Risk",
+    "url": "https://www.calculatedriskblog.com",
+    "feed": "https://feeds.feedburner.com/CalculatedRisk",
+    "category": "analysis",
+    "sessions": ["daily"]
+  },
+  {
+    "name": "Visual Capitalist",
+    "url": "https://www.visualcapitalist.com",
+    "feed": "https://www.visualcapitalist.com/feed/",
     "category": "analysis",
     "sessions": ["daily"]
   }
