@@ -18,6 +18,12 @@
     "category": "markets"
   },
   {
+    "name": "The Motley Fool",
+    "url": "https://www.fool.com",
+    "feed": "https://api.fool.com/feeds/foolwatch?apikey=foolwatch-feed",
+    "category": "markets"
+  },
+  {
     "name": "Seeking Alpha Economy",
     "url": "https://seekingalpha.com/market-news/economy",
     "feed": "https://seekingalpha.com/feed.xml",
@@ -42,6 +48,18 @@
     "category": "economy"
   },
   {
+    "name": "Econbrowser",
+    "url": "https://econbrowser.com",
+    "feed": "https://econbrowser.com/feed",
+    "category": "economy"
+  },
+  {
+    "name": "EconLog",
+    "url": "https://www.econlib.org/econlog/",
+    "feed": "https://www.econlib.org/feed/",
+    "category": "economy"
+  },
+  {
     "name": "CoinDesk",
     "url": "https://www.coindesk.com",
     "feed": "https://www.coindesk.com/arc/outboundfeeds/rss/",
@@ -60,6 +78,18 @@
     "category": "fintech"
   },
   {
+    "name": "Finextra",
+    "url": "https://www.finextra.com",
+    "feed": "https://www.finextra.com/rss/headlines.aspx",
+    "category": "fintech"
+  },
+  {
+    "name": "Decrypt",
+    "url": "https://decrypt.co",
+    "feed": "https://decrypt.co/feed",
+    "category": "fintech"
+  },
+  {
     "name": "The Big Picture",
     "url": "https://ritholtz.com",
     "feed": "https://ritholtz.com/feed/",
@@ -69,6 +99,12 @@
     "name": "Abnormal Returns",
     "url": "https://abnormalreturns.com",
     "feed": "https://abnormalreturns.com/feed/",
+    "category": "analysis"
+  },
+  {
+    "name": "A Wealth of Common Sense",
+    "url": "https://awealthofcommonsense.com",
+    "feed": "https://awealthofcommonsense.com/feed/",
     "category": "analysis"
   }
 ]
