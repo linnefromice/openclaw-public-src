@@ -36,6 +36,18 @@
     "category": "lifestyle"
   },
   {
+    "name": "クロワッサン オンライン",
+    "url": "https://croissant-online.jp",
+    "feed": "https://croissant-online.jp/feed/",
+    "category": "lifestyle"
+  },
+  {
+    "name": "ソトコトオンライン",
+    "url": "https://sotokoto-online.jp",
+    "feed": "https://sotokoto-online.jp/feed",
+    "category": "lifestyle"
+  },
+  {
     "name": "みんなの仕事Lab (リクルートスタッフィング)",
     "url": "https://www.r-staffing.co.jp/lab/",
     "feed": "https://www.r-staffing.co.jp/lab/feed",
@@ -48,9 +60,27 @@
     "category": "worklife"
   },
   {
+    "name": "マイナビウーマン",
+    "url": "https://woman.mynavi.jp",
+    "feed": "https://woman.mynavi.jp/feed/",
+    "category": "worklife"
+  },
+  {
     "name": "FQ JAPAN",
     "url": "https://fqmagazine.jp",
     "feed": "https://fqmagazine.jp/feed",
+    "category": "parenting"
+  },
+  {
+    "name": "HugKum（はぐくむ）",
+    "url": "https://hugkum.sho.jp",
+    "feed": "https://hugkum.sho.jp/sitemap.rss",
+    "category": "parenting"
+  },
+  {
+    "name": "東京すくすく",
+    "url": "https://sukusuku.tokyo-np.co.jp",
+    "feed": "https://sukusuku.tokyo-np.co.jp/feed/",
     "category": "parenting"
   }
 ]
