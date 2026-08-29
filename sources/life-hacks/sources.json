@@ -18,6 +18,12 @@
     "category": "productivity"
   },
   {
+    "name": "MakeUseOf - Productivity",
+    "url": "https://www.makeuseof.com",
+    "feed": "https://www.makeuseof.com/feed/category/productivity/",
+    "category": "productivity"
+  },
+  {
     "name": "できるネット",
     "url": "https://dekiru.net",
     "feed": "https://dekiru.net/feed/",
@@ -36,6 +42,12 @@
     "category": "lifestyle"
   },
   {
+    "name": "Roomie",
+    "url": "https://www.roomie.jp",
+    "feed": "https://www.roomie.jp/feed/",
+    "category": "lifestyle"
+  },
+  {
     "name": "みんなの仕事Lab (リクルートスタッフィング)",
     "url": "https://www.r-staffing.co.jp/lab/",
     "feed": "https://www.r-staffing.co.jp/lab/feed",
@@ -48,9 +60,21 @@
     "category": "worklife"
   },
   {
+    "name": "Fast Company - Work Life",
+    "url": "https://www.fastcompany.com/work-life",
+    "feed": "https://www.fastcompany.com/work-life/rss",
+    "category": "worklife"
+  },
+  {
     "name": "FQ JAPAN",
     "url": "https://fqmagazine.jp",
     "feed": "https://fqmagazine.jp/feed",
+    "category": "parenting"
+  },
+  {
+    "name": "たまGoo!",
+    "url": "https://tamagoo.jp",
+    "feed": "https://tamagoo.jp/feed/",
     "category": "parenting"
   }
 ]
