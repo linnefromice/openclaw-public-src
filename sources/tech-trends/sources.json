@@ -30,6 +30,24 @@
     "category": "news"
   },
   {
+    "name": "The Verge",
+    "url": "https://www.theverge.com",
+    "feed": "https://www.theverge.com/rss/index.xml",
+    "category": "news"
+  },
+  {
+    "name": "VentureBeat",
+    "url": "https://venturebeat.com",
+    "feed": "https://venturebeat.com/feed",
+    "category": "news"
+  },
+  {
+    "name": "IEEE Spectrum",
+    "url": "https://spectrum.ieee.org",
+    "feed": "https://spectrum.ieee.org/feeds/feed.rss",
+    "category": "news"
+  },
+  {
     "name": "Publickey",
     "url": "https://www.publickey1.jp",
     "feed": "https://www.publickey1.jp/atom.xml",
@@ -72,6 +90,18 @@
     "category": "blog"
   },
   {
+    "name": "Simon Willison's Weblog",
+    "url": "https://simonwillison.net",
+    "feed": "https://simonwillison.net/atom/everything/",
+    "category": "blog"
+  },
+  {
+    "name": "Stack Overflow Blog",
+    "url": "https://stackoverflow.blog",
+    "feed": "https://stackoverflow.blog/feed/",
+    "category": "blog"
+  },
+  {
     "name": "Smashing Magazine",
     "url": "https://www.smashingmagazine.com",
     "feed": "https://www.smashingmagazine.com/feed/",
@@ -96,6 +126,18 @@
     "category": "enterprise"
   },
   {
+    "name": "Google Cloud Blog",
+    "url": "https://cloud.google.com/blog",
+    "feed": "https://cloudblog.withgoogle.com/rss/",
+    "category": "enterprise"
+  },
+  {
+    "name": "Azure Blog",
+    "url": "https://azure.microsoft.com/en-us/blog",
+    "feed": "https://azure.microsoft.com/en-us/blog/feed/",
+    "category": "enterprise"
+  },
+  {
     "name": "Meta Engineering",
     "url": "https://engineering.fb.com",
     "feed": "https://engineering.fb.com/feed/",
@@ -108,9 +150,27 @@
     "category": "enterprise"
   },
   {
+    "name": "Stripe Blog",
+    "url": "https://stripe.com/blog",
+    "feed": "https://stripe.com/blog/feed.rss",
+    "category": "enterprise"
+  },
+  {
     "name": "CNCF Blog",
     "url": "https://www.cncf.io/blog",
     "feed": "https://www.cncf.io/feed/",
+    "category": "oss"
+  },
+  {
+    "name": "The New Stack",
+    "url": "https://thenewstack.io",
+    "feed": "https://thenewstack.io/feed/",
+    "category": "oss"
+  },
+  {
+    "name": "Red Hat Developer",
+    "url": "https://developers.redhat.com",
+    "feed": "https://developers.redhat.com/blog/feed",
     "category": "oss"
   },
   {
