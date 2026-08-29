@@ -24,6 +24,12 @@
     "category": "productivity"
   },
   {
+    "name": "STUDY HACKER",
+    "url": "https://studyhacker.net",
+    "feed": "https://studyhacker.net/feed",
+    "category": "productivity"
+  },
+  {
     "name": "ライフハッカー日本版",
     "url": "https://www.lifehacker.jp",
     "feed": "https://www.lifehacker.jp/feed/index.xml",
@@ -33,6 +39,18 @@
     "name": "はてなブックマーク 暮らし",
     "url": "https://b.hatena.ne.jp/hotentry/life",
     "feed": "https://b.hatena.ne.jp/hotentry/life.rss",
+    "category": "lifestyle"
+  },
+  {
+    "name": "ROOMIE",
+    "url": "https://www.roomie.jp",
+    "feed": "https://www.roomie.jp/feed/",
+    "category": "lifestyle"
+  },
+  {
+    "name": "SUUMO ジャーナル",
+    "url": "https://suumo.jp/journal",
+    "feed": "https://suumo.jp/journal/feed/",
     "category": "lifestyle"
   },
   {
@@ -48,9 +66,27 @@
     "category": "worklife"
   },
   {
+    "name": "東洋経済オンライン",
+    "url": "https://toyokeizai.net",
+    "feed": "https://toyokeizai.net/list/feed/rss",
+    "category": "worklife"
+  },
+  {
     "name": "FQ JAPAN",
     "url": "https://fqmagazine.jp",
     "feed": "https://fqmagazine.jp/feed",
+    "category": "parenting"
+  },
+  {
+    "name": "こそだてハック",
+    "url": "https://kosodate-hack.com",
+    "feed": null,
+    "category": "parenting"
+  },
+  {
+    "name": "HugKum (小学館)",
+    "url": "https://hugkum.sho.jp",
+    "feed": null,
     "category": "parenting"
   }
 ]
