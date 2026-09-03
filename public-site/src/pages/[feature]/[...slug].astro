@@ -9,15 +9,7 @@ import { getUnpublishedIds, getAllReportTags, toD1Id } from '../../lib/d1-client
 import { getAllReports } from '../../lib/all-reports';
 import { getFeatureColor } from '../../features';
 import { detectLang } from '../../lib/multilingual';
-
-interface RelatedReport {
-  report_id: string;
-  feature: string;
-  date: string;
-  title: string;
-  shared_tags: string[];
-  shared_count: number;
-}
+import { getRelatedReports, type RelatedReport } from '../../lib/related-reports';
 
 export async function getStaticPaths() {
   const unpublished = await getUnpublishedIds();
@@ -52,23 +44,15 @@ const reportTags = allReportTags.get(toD1Id(feature, report.id)) ?? [];
 const keywordTags = reportTags.filter(t => t.tag_type === 'keyword').map(t => t.tag);
 const themeTags = reportTags.filter(t => t.tag_type === 'theme').map(t => t.tag);
 
-// 関連レポート取得（D1 API、ベストエフォート）
-let relatedReports: RelatedReport[] = [];
-const apiUrl = import.meta.env.D1_API_URL || process.env.D1_API_URL;
-const apiKey = import.meta.env.D1_API_KEY || process.env.D1_API_KEY;
-if (apiUrl && apiKey) {
-  try {
-    const d1Id = toD1Id(feature, report.id);
-    const res = await fetch(
-      `${apiUrl}/api/reports/${encodeURIComponent(d1Id)}/related?limit=5`,
-      { headers: { Authorization: `Bearer ${apiKey}` }, signal: AbortSignal.timeout(3000) }
-    );
-    if (res.ok) {
-      const data = await res.json() as { data: RelatedReport[] };
-      relatedReports = data.data;
-    }
-  } catch { /* ベストエフォート */ }
-}
+// 関連レポート: 一括取得済みのタグからローカル算出する（D1 への追加アクセスなし）。
+// 以前はページごとに /api/reports/{id}/related を叩いており、861 ページ ×
+// 約 3,000 rows_read で 1 ビルドあたり最大 250 万行を読んで D1 無料枠を溶かしていた。
+// archive のレポートは関連リンクを出さない（過去記事の回遊需要が薄く、
+// ビルド対象 861 ページのうち 280 ページを計算対象から外せる）。
+const isArchived = report.collection.endsWith('-archive');
+const relatedReports: RelatedReport[] = isArchived
+  ? []
+  : await getRelatedReports(toD1Id(feature, report.id), 5);
 
 // マークダウン生データ（Copy / Download 用）
 const rawMarkdown = report.body ?? '';
@@ -167,7 +151,7 @@ const tocHeadings = headings.filter(h =>
       <h2>Related Reports</h2>
       <div class="related-list">
         {relatedReports.map((r) => (
-          <a href={`/${r.feature}/${r.report_id.split('/')[1]}`} class="related-item">
+          <a href={`/${r.feature}/${r.slug}`} class="related-item">
             <span class="related-dot" style={`background: ${getFeatureColor(r.feature)}`} />
             <div class="related-info">
               <span class="related-title">{r.title}</span>
